@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Spinnaker&family=Titan+One&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Comfortaa;
+  overflow: visible;
+}
+
+body {
+  height: viewport;
+  background-color: #FDF0D5;
+  overflow: visible;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(70, 99, 101, 1);
+  background-image: linear-gradient(
+      rgba(70, 99, 101, 0.5), 
+      rgba(70, 99, 101, 1)
+    ), url(flowers.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
+}
+
+h1 {
+  font-family: Spinnaker;
+  padding: 80px 20px;
+  text-align: center;
+  color: #FDF0D5;
+}
+
+td#heading1 {
+  font-family: Spinnaker;
+  font-size: 40px;
+  text-decoration: bold;
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px auto;
+  color: #2F4B26;
+}
+
+td#heading2 {
+  font-size: 26px;
+  text-decoration: underline;
+  color: #2F4B26;
+}
+
+td#heading3 {
+  font-size: 20px;
+  text-decoration: bold;
+}
+
+ h3, h3, h5, h6, p, td {
+  color: #466365;
+}
+
+p, td {
+  font-size: 15px;
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+  padding: 10px;
+  background-color: #2F4B26;
+  opacity: 95%;
+  margin: 0;
+  position: sticky;
+  top: 0px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1em;
+}
+
+nav li a {
+  color: #FDF0D5;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav li a:hover {
+  color: #A5D8FF;
+  text-decoration: underline;
+}
+
+Section#colours {
+  padding: 40px;
+}
+
+table {
+  width: 450px;
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px 10px;
+}
+
+td.table {
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+td.forest {
+  background-color: #2F4B26;
+  color: #FDF0D5;
+  box-shadow: 2px 2px 4px #466365;
+}
+
+td.cream {
+  box-shadow: 2px 2px 4px;
+  border: solid;
+  border-width: 1px;
+}
+
+td.slate {
+  background-color: #466365;
+  color: #FDF0D5;
+  box-shadow: 2px 2px 4px #466365;
+}
+
+td.mandarin {
+  background-color: #FF8811;
+  color: #FDF0D5;
+  box-shadow: 2px 2px 4px #466365;
+}
+
+tr.emptyrow {
+  height: 5px;
+}
+
+td.spinnaker {
+  font-family: Spinnaker;
+}
+
+section#fonts, section#textstyles, section#layout {
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+table#layouttable {
+  border: solid;
+  border-width: 2px;
+  text-align: center;
+}
+
+table#layouttable td {
+  border: solid;
+  border-widthL 2px;
+}
+
+td#layoutbody {
+  height: 100px;
+}
+
